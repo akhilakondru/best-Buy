@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="bestbuy.testcases.DepartmentToCartTestCase">
+        <methods>
+          <include name="beforClass"/>
+          <include name="AddToCartByDepartment"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- bestbuy.testcases.DepartmentToCartTestCase -->
+      <class name="bestbuy.testcases.SignupTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tc007_Signup_Flow"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- bestbuy.testcases.SignupTestCase -->
+      <class name="bestbuy.testcases.CheckOutItemsTestCase">
+        <methods>
+          <include name="tc001_checkOut"/>
+          <include name="beforClass"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- bestbuy.testcases.CheckOutItemsTestCase -->
+      <class name="bestbuy.testcases.MenuBarBrandsTestCase">
+        <methods>
+          <include name="tc001_brands_bestbybrands_flow"/>
+          <include name="beforClass"/>
+          <include name="tc005_brands_sony_flow"/>
+          <include name="tc004_brands_microsoft_flow"/>
+          <include name="tc005_brands_intel_flow"/>
+          <include name="tc002_brands_apple_flow"/>
+          <include name="tc003_brands_samsung_flow"/>
+          <include name="tc005_brands_yardbird_flow"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- bestbuy.testcases.MenuBarBrandsTestCase -->
+      <class name="bestbuy.testcases.PaymentOptionTestCase">
+        <methods>
+          <include name="beforClass"/>
+          <include name="tc001_payment_flow"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- bestbuy.testcases.PaymentOptionTestCase -->
+      <class name="bestbuy.testcases.MenuBarFeaturedTestCase">
+        <methods>
+          <include name="tc001_featured_aapiheritagemonth_flow"/>
+          <include name="tc005_featured_teentechcenter_flow"/>
+          <include name="beforClass"/>
+          <include name="tc004_featured_legotoys_flow"/>
+          <include name="tc003_featured_gearofcontentcreators_flow"/>
+          <include name="tc002_featured_graduationgifts_flow"/>
+          <include name="tc006_featured_homesecuritysolutions_flow"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- bestbuy.testcases.MenuBarFeaturedTestCase -->
+      <class name="bestbuy.testcases.BrandItemsToCartTestCase">
+        <methods>
+          <include name="beforClass"/>
+          <include name="tc001_cart_flow"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- bestbuy.testcases.BrandItemsToCartTestCase -->
+      <class name="bestbuy.testcases.BottomLinksTestCase">
+        <methods>
+          <include name="tc001_bottom_flow"/>
+          <include name="beforeClass"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- bestbuy.testcases.BottomLinksTestCase -->
+      <class name="bestbuy.testcases.MenuBarSupportTestCases">
+        <methods>
+          <include name="tc002_services_ScheduleService_flow"/>
+          <include name="tc004_services_ManageAppointment_flow"/>
+          <include name="tc005_services_checkrepairstatus_flow"/>
+          <include name="tc001_servicesVisitCenter_flow"/>
+          <include name="tc005_services_shopwithanexpert_flow"/>
+          <include name="tc006_services_freehomeconsultation_flow"/>
+          <include name="beforeClass"/>
+          <include name="tc003_services_ScheduleService_flow"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- bestbuy.testcases.MenuBarSupportTestCases -->
+      <class name="bestbuy.testcases.SearchBarTestCase">
+        <methods>
+          <include name="tc001_cart_flow"/>
+          <include name="beforClass"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- bestbuy.testcases.SearchBarTestCase -->
+      <class name="bestbuy.testcases.MenuBarDealsTestCases">
+        <methods>
+          <include name="tc001_Deals_TopDeals_flow"/>
+          <include name="beforClass"/>
+          <include name="tc002_Deals_DealOfTheDay_flow"/>
+          <include name="tc004_Deals_bestbyoutlet_flow"/>
+          <include name="tc003_Deals_ToralTechMemberOffers_flow"/>
+          <include name="tc004_Deals_appleshoppingevent_flow"/>
+          <include name="tc004_Deals_giftideas_flow"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- bestbuy.testcases.MenuBarDealsTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

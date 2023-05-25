@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\Practice\akhila-workspace\BestBuy\testng-bestbuy2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods, 8 failed,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.BottomLinksTestCase" hash-for-method="tc001_bottom_flow">tc001_bottom_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.BrokenLinksTestCases" hash-for-method="tc001_broken_flow">tc001_broken_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.CheckOutItemsTestCase" hash-for-method="tc001_checkOut">tc001_checkOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarFeaturedTestCase" hash-for-method="tc001_featured_aapiheritagemonth_flow">tc001_featured_aapiheritagemonth_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.PaymentOptionTestCase" hash-for-method="tc001_payment_flow">tc001_payment_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarFeaturedTestCase" hash-for-method="tc003_featured_gearofcontentcreators_flow">tc003_featured_gearofcontentcreators_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarSupportTestCases" hash-for-method="tc004_services_ManageAppointment_flow">tc004_services_ManageAppointment_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.SignupTestCase" hash-for-method="tc007_Signup_Flow">tc007_Signup_Flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.DepartmentToCartTestCase" hash-for-method="AddToCartByDepartment">AddToCartByDepartment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarDealsTestCases" hash-for-method="tc001_Deals_TopDeals_flow">tc001_Deals_TopDeals_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.SignupTestCase" hash-for-method="tc001_Signup_fName_Validation">tc001_Signup_fName_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarBrandsTestCase" hash-for-method="tc001_brands_bestbybrands_flow">tc001_brands_bestbybrands_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.BrandItemsToCartTestCase" hash-for-method="tc001_cart_flow">tc001_cart_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.SearchBarTestCase" hash-for-method="tc001_cart_flow">tc001_cart_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.HomeTestCase" hash-for-method="tc001_home_flow">tc001_home_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarSupportTestCases" hash-for-method="tc001_servicesVisitCenter_flow">tc001_servicesVisitCenter_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarDealsTestCases" hash-for-method="tc002_Deals_DealOfTheDay_flow">tc002_Deals_DealOfTheDay_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.SignupTestCase" hash-for-method="tc002_Signup_lName_Validation">tc002_Signup_lName_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarBrandsTestCase" hash-for-method="tc002_brands_apple_flow">tc002_brands_apple_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarFeaturedTestCase" hash-for-method="tc002_featured_graduationgifts_flow">tc002_featured_graduationgifts_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarSupportTestCases" hash-for-method="tc002_services_ScheduleService_flow">tc002_services_ScheduleService_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarDealsTestCases" hash-for-method="tc003_Deals_ToralTechMemberOffers_flow">tc003_Deals_ToralTechMemberOffers_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarBrandsTestCase" hash-for-method="tc003_brands_samsung_flow">tc003_brands_samsung_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarSupportTestCases" hash-for-method="tc003_services_ScheduleService_flow">tc003_services_ScheduleService_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarDealsTestCases" hash-for-method="tc004_Deals_appleshoppingevent_flow">tc004_Deals_appleshoppingevent_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarDealsTestCases" hash-for-method="tc004_Deals_bestbyoutlet_flow">tc004_Deals_bestbyoutlet_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarDealsTestCases" hash-for-method="tc004_Deals_giftideas_flow">tc004_Deals_giftideas_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.SignupTestCase" hash-for-method="tc004_Signup_Pwd_Validation">tc004_Signup_Pwd_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarBrandsTestCase" hash-for-method="tc004_brands_microsoft_flow">tc004_brands_microsoft_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarFeaturedTestCase" hash-for-method="tc004_featured_legotoys_flow">tc004_featured_legotoys_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.SignupTestCase" hash-for-method="tc005_Signup_RePwd_Validation2">tc005_Signup_RePwd_Validation2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarBrandsTestCase" hash-for-method="tc005_brands_intel_flow">tc005_brands_intel_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarBrandsTestCase" hash-for-method="tc005_brands_sony_flow">tc005_brands_sony_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarBrandsTestCase" hash-for-method="tc005_brands_yardbird_flow">tc005_brands_yardbird_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarFeaturedTestCase" hash-for-method="tc005_featured_teentechcenter_flow">tc005_featured_teentechcenter_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarSupportTestCases" hash-for-method="tc005_services_checkrepairstatus_flow">tc005_services_checkrepairstatus_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarSupportTestCases" hash-for-method="tc005_services_shopwithanexpert_flow">tc005_services_shopwithanexpert_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.SignupTestCase" hash-for-method="tc006_Signup_Phone_Validation">tc006_Signup_Phone_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarFeaturedTestCase" hash-for-method="tc006_featured_homesecuritysolutions_flow">tc006_featured_homesecuritysolutions_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bestbuy.testcases.MenuBarSupportTestCases" hash-for-method="tc006_services_freehomeconsultation_flow">tc006_services_freehomeconsultation_flow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bestbuy.testcases.SignupTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc007_Signup_Flow">
+                  </a> <!-- tc007_Signup_Flow -->
+                  <span class="method-name">tc007_Signup_Flow</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Best Buy: Create an Account] but found [Account Home - Best Buy]
+	at bestbuy.testcases.SignupTestCase.tc007_Signup_Flow(SignupTestCase.java:77)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bestbuy.testcases.CheckOutItemsTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_checkOut">
+                  </a> <!-- tc001_checkOut -->
+                  <span class="method-name">tc001_checkOut</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;bby-cart gvp-cart-icon-lv&quot;&gt;...&lt;/div&gt; is not clickable at point (955, 36). Other element would receive the click: &lt;div class=&quot;row&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=113.0.5672.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NKO2PM4&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6e638094156fd3ba48dbfe7cdf5ba8b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at bestbuy.pages.CheckOutItems.checkOutItems(CheckOutItems.java:62)
+	at bestbuy.testcases.CheckOutItemsTestCase.tc001_checkOut(CheckOutItemsTestCase.java:26)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bestbuy.testcases.PaymentOptionTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_payment_flow">
+                  </a> <!-- tc001_payment_flow -->
+                  <span class="method-name">tc001_payment_flow</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Lease to Own&apos;]&quot;}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NKO2PM4&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6e638094156fd3ba48dbfe7cdf5ba8b
+*** Element info: {Using=xpath, value=//a[text()=&apos;Lease to Own&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at bestbuy.pages.PaymentOption.addPayment(PaymentOption.java:31)
+	at bestbuy.testcases.PaymentOptionTestCase.tc001_payment_flow(PaymentOptionTestCase.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bestbuy.testcases.MenuBarFeaturedTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_featured_aapiheritagemonth_flow">
+                  </a> <!-- tc001_featured_aapiheritagemonth_flow -->
+                  <span class="method-name">tc001_featured_aapiheritagemonth_flow</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//button[@class=&apos;c-button-unstyled top-four v-fw-medium&apos;])[4]&quot;}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NKO2PM4&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6e638094156fd3ba48dbfe7cdf5ba8b
+*** Element info: {Using=xpath, value=(//button[@class=&apos;c-button-unstyled top-four v-fw-medium&apos;])[4]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at bestbuy.pages.AddAllMenu.clickMenuElements(AddAllMenu.java:153)
+	at bestbuy.testcases.MenuBarFeaturedTestCase.tc001_featured_aapiheritagemonth_flow(MenuBarFeaturedTestCase.java:30)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc003_featured_gearofcontentcreators_flow">
+                  </a> <!-- tc003_featured_gearofcontentcreators_flow -->
+                  <span class="method-name">tc003_featured_gearofcontentcreators_flow</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [www.bestbuy.com] but found [Content Creator Cameras, Lights &amp; Mics - Best Buy]
+	at bestbuy.testcases.MenuBarFeaturedTestCase.tc003_featured_gearofcontentcreators_flow(MenuBarFeaturedTestCase.java:53)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bestbuy.testcases.BottomLinksTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_bottom_flow">
+                  </a> <!-- tc001_bottom_flow -->
+                  <span class="method-name">tc001_bottom_flow</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=113.0.5672.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NKO2PM4&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6e638094156fd3ba48dbfe7cdf5ba8b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at bestbuy.pages.AddBottomLinks.bottomLinks(AddBottomLinks.java:43)
+	at bestbuy.testcases.BottomLinksTestCase.tc001_bottom_flow(BottomLinksTestCase.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bestbuy.testcases.MenuBarSupportTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc004_services_ManageAppointment_flow">
+                  </a> <!-- tc004_services_ManageAppointment_flow -->
+                  <span class="method-name">tc004_services_ManageAppointment_flow</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Service History - Best Buy] but found [Appointment Finder - Best Buy]
+	at bestbuy.testcases.MenuBarSupportTestCases.tc004_services_ManageAppointment_flow(MenuBarSupportTestCases.java:59)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bestbuy.testcases.BrokenLinksTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_broken_flow">
+                  </a> <!-- tc001_broken_flow -->
+                  <span class="method-name">tc001_broken_flow</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NKO2PM4&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6e638094156fd3ba48dbfe7cdf5ba8b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at bestbuy.pages.BrokenLinks.brokenLinks(BrokenLinks.java:34)
+	at bestbuy.testcases.BrokenLinksTestCases.tc001_broken_flow(BrokenLinksTestCases.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bestbuy.testcases.DepartmentToCartTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartByDepartment">
+                  </a> <!-- AddToCartByDepartment -->
+                  <span class="method-name">AddToCartByDepartment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bestbuy.testcases.SignupTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_Signup_fName_Validation">
+                  </a> <!-- tc001_Signup_fName_Validation -->
+                  <span class="method-name">tc001_Signup_fName_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc002_Signup_lName_Validation">
+                  </a> <!-- tc002_Signup_lName_Validation -->
+                  <span class="method-name">tc002_Signup_lName_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc004_Signup_Pwd_Validation">
+                  </a> <!-- tc004_Signup_Pwd_Validation -->
+                  <span class="method-name">tc004_Signup_Pwd_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc005_Signup_RePwd_Validation2">
+                  </a> <!-- tc005_Signup_RePwd_Validation2 -->
+                  <span class="method-name">tc005_Signup_RePwd_Validation2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc006_Signup_Phone_Validation">
+                  </a> <!-- tc006_Signup_Phone_Validation -->
+                  <span class="method-name">tc006_Signup_Phone_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bestbuy.testcases.MenuBarBrandsTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_brands_bestbybrands_flow">
+                  </a> <!-- tc001_brands_bestbybrands_flow -->
+                  <span class="method-name">tc001_brands_bestbybrands_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc002_brands_apple_flow">
+                  </a> <!-- tc002_brands_apple_flow -->
+                  <span class="method-name">tc002_brands_apple_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc003_brands_samsung_flow">
+                  </a> <!-- tc003_brands_samsung_flow -->
+                  <span class="method-name">tc003_brands_samsung_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc004_brands_microsoft_flow">
+                  </a> <!-- tc004_brands_microsoft_flow -->
+                  <span class="method-name">tc004_brands_microsoft_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc005_brands_intel_flow">
+                  </a> <!-- tc005_brands_intel_flow -->
+                  <span class="method-name">tc005_brands_intel_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc005_brands_sony_flow">
+                  </a> <!-- tc005_brands_sony_flow -->
+                  <span class="method-name">tc005_brands_sony_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc005_brands_yardbird_flow">
+                  </a> <!-- tc005_brands_yardbird_flow -->
+                  <span class="method-name">tc005_brands_yardbird_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bestbuy.testcases.BrandItemsToCartTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_cart_flow">
+                  </a> <!-- tc001_cart_flow -->
+                  <span class="method-name">tc001_cart_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bestbuy.testcases.MenuBarFeaturedTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc002_featured_graduationgifts_flow">
+                  </a> <!-- tc002_featured_graduationgifts_flow -->
+                  <span class="method-name">tc002_featured_graduationgifts_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc004_featured_legotoys_flow">
+                  </a> <!-- tc004_featured_legotoys_flow -->
+                  <span class="method-name">tc004_featured_legotoys_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc005_featured_teentechcenter_flow">
+                  </a> <!-- tc005_featured_teentechcenter_flow -->
+                  <span class="method-name">tc005_featured_teentechcenter_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc006_featured_homesecuritysolutions_flow">
+                  </a> <!-- tc006_featured_homesecuritysolutions_flow -->
+                  <span class="method-name">tc006_featured_homesecuritysolutions_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bestbuy.testcases.HomeTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_home_flow">
+                  </a> <!-- tc001_home_flow -->
+                  <span class="method-name">tc001_home_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bestbuy.testcases.MenuBarSupportTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_servicesVisitCenter_flow">
+                  </a> <!-- tc001_servicesVisitCenter_flow -->
+                  <span class="method-name">tc001_servicesVisitCenter_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc002_services_ScheduleService_flow">
+                  </a> <!-- tc002_services_ScheduleService_flow -->
+                  <span class="method-name">tc002_services_ScheduleService_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc003_services_ScheduleService_flow">
+                  </a> <!-- tc003_services_ScheduleService_flow -->
+                  <span class="method-name">tc003_services_ScheduleService_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc005_services_checkrepairstatus_flow">
+                  </a> <!-- tc005_services_checkrepairstatus_flow -->
+                  <span class="method-name">tc005_services_checkrepairstatus_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc005_services_shopwithanexpert_flow">
+                  </a> <!-- tc005_services_shopwithanexpert_flow -->
+                  <span class="method-name">tc005_services_shopwithanexpert_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc006_services_freehomeconsultation_flow">
+                  </a> <!-- tc006_services_freehomeconsultation_flow -->
+                  <span class="method-name">tc006_services_freehomeconsultation_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bestbuy.testcases.SearchBarTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_cart_flow">
+                  </a> <!-- tc001_cart_flow -->
+                  <span class="method-name">tc001_cart_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bestbuy.testcases.MenuBarDealsTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc001_Deals_TopDeals_flow">
+                  </a> <!-- tc001_Deals_TopDeals_flow -->
+                  <span class="method-name">tc001_Deals_TopDeals_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc002_Deals_DealOfTheDay_flow">
+                  </a> <!-- tc002_Deals_DealOfTheDay_flow -->
+                  <span class="method-name">tc002_Deals_DealOfTheDay_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc003_Deals_ToralTechMemberOffers_flow">
+                  </a> <!-- tc003_Deals_ToralTechMemberOffers_flow -->
+                  <span class="method-name">tc003_Deals_ToralTechMemberOffers_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc004_Deals_appleshoppingevent_flow">
+                  </a> <!-- tc004_Deals_appleshoppingevent_flow -->
+                  <span class="method-name">tc004_Deals_appleshoppingevent_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc004_Deals_bestbyoutlet_flow">
+                  </a> <!-- tc004_Deals_bestbyoutlet_flow -->
+                  <span class="method-name">tc004_Deals_bestbyoutlet_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc004_Deals_giftideas_flow">
+                  </a> <!-- tc004_Deals_giftideas_flow -->
+                  <span class="method-name">tc004_Deals_giftideas_flow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Practice\akhila-workspace\BestBuy\testng-bestbuy2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;bestbuy.testcases.HomeTestCase&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.SignupTestCase&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.BrokenLinksTestCases&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.MenuBarDealsTestCases&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.MenuBarBrandsTestCase&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.MenuBarFeaturedTestCase&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.MenuBarSupportTestCases&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.DepartmentToCartTestCase&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.BrandItemsToCartTestCase&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.SearchBarTestCase&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.CheckOutItemsTestCase&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.BottomLinksTestCase&quot;/&gt;
+      &lt;class name=&quot;bestbuy.testcases.PaymentOptionTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc001_payment_flow')
+data.setCell(0, 2, 'bestbuy.testcases.PaymentOptionTestCase')
+data.setCell(0, 3, 96977);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc001_featured_aapiheritagemonth_flow')
+data.setCell(1, 2, 'bestbuy.testcases.MenuBarFeaturedTestCase')
+data.setCell(1, 3, 50747);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc001_bottom_flow')
+data.setCell(2, 2, 'bestbuy.testcases.BottomLinksTestCase')
+data.setCell(2, 3, 50066);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc004_featured_legotoys_flow')
+data.setCell(3, 2, 'bestbuy.testcases.MenuBarFeaturedTestCase')
+data.setCell(3, 3, 43864);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc002_featured_graduationgifts_flow')
+data.setCell(4, 2, 'bestbuy.testcases.MenuBarFeaturedTestCase')
+data.setCell(4, 3, 18577);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc006_Signup_Phone_Validation')
+data.setCell(5, 2, 'bestbuy.testcases.SignupTestCase')
+data.setCell(5, 3, 17364);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc001_Signup_fName_Validation')
+data.setCell(6, 2, 'bestbuy.testcases.SignupTestCase')
+data.setCell(6, 3, 15206);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc001_cart_flow')
+data.setCell(7, 2, 'bestbuy.testcases.BrandItemsToCartTestCase')
+data.setCell(7, 3, 14992);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc001_checkOut')
+data.setCell(8, 2, 'bestbuy.testcases.CheckOutItemsTestCase')
+data.setCell(8, 3, 13845);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc001_cart_flow')
+data.setCell(9, 2, 'bestbuy.testcases.SearchBarTestCase')
+data.setCell(9, 3, 12859);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc004_Deals_giftideas_flow')
+data.setCell(10, 2, 'bestbuy.testcases.MenuBarDealsTestCases')
+data.setCell(10, 3, 11901);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tc002_Signup_lName_Validation')
+data.setCell(11, 2, 'bestbuy.testcases.SignupTestCase')
+data.setCell(11, 3, 11555);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'AddToCartByDepartment')
+data.setCell(12, 2, 'bestbuy.testcases.DepartmentToCartTestCase')
+data.setCell(12, 3, 10831);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc001_broken_flow')
+data.setCell(13, 2, 'bestbuy.testcases.BrokenLinksTestCases')
+data.setCell(13, 3, 10715);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tc004_Signup_Pwd_Validation')
+data.setCell(14, 2, 'bestbuy.testcases.SignupTestCase')
+data.setCell(14, 3, 10236);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'tc005_Signup_RePwd_Validation2')
+data.setCell(15, 2, 'bestbuy.testcases.SignupTestCase')
+data.setCell(15, 3, 9601);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tc003_Deals_ToralTechMemberOffers_flow')
+data.setCell(16, 2, 'bestbuy.testcases.MenuBarDealsTestCases')
+data.setCell(16, 3, 8477);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tc005_brands_sony_flow')
+data.setCell(17, 2, 'bestbuy.testcases.MenuBarBrandsTestCase')
+data.setCell(17, 3, 7957);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tc001_home_flow')
+data.setCell(18, 2, 'bestbuy.testcases.HomeTestCase')
+data.setCell(18, 3, 7906);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'tc007_Signup_Flow')
+data.setCell(19, 2, 'bestbuy.testcases.SignupTestCase')
+data.setCell(19, 3, 7627);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'tc006_services_freehomeconsultation_flow')
+data.setCell(20, 2, 'bestbuy.testcases.MenuBarSupportTestCases')
+data.setCell(20, 3, 6781);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'tc001_servicesVisitCenter_flow')
+data.setCell(21, 2, 'bestbuy.testcases.MenuBarSupportTestCases')
+data.setCell(21, 3, 6451);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'tc005_featured_teentechcenter_flow')
+data.setCell(22, 2, 'bestbuy.testcases.MenuBarFeaturedTestCase')
+data.setCell(22, 3, 6402);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'tc002_Deals_DealOfTheDay_flow')
+data.setCell(23, 2, 'bestbuy.testcases.MenuBarDealsTestCases')
+data.setCell(23, 3, 6248);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'tc001_brands_bestbybrands_flow')
+data.setCell(24, 2, 'bestbuy.testcases.MenuBarBrandsTestCase')
+data.setCell(24, 3, 6010);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'tc003_brands_samsung_flow')
+data.setCell(25, 2, 'bestbuy.testcases.MenuBarBrandsTestCase')
+data.setCell(25, 3, 5712);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'tc004_services_ManageAppointment_flow')
+data.setCell(26, 2, 'bestbuy.testcases.MenuBarSupportTestCases')
+data.setCell(26, 3, 5707);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'tc004_Deals_bestbyoutlet_flow')
+data.setCell(27, 2, 'bestbuy.testcases.MenuBarDealsTestCases')
+data.setCell(27, 3, 5636);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'tc002_services_ScheduleService_flow')
+data.setCell(28, 2, 'bestbuy.testcases.MenuBarSupportTestCases')
+data.setCell(28, 3, 5633);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'tc005_brands_intel_flow')
+data.setCell(29, 2, 'bestbuy.testcases.MenuBarBrandsTestCase')
+data.setCell(29, 3, 5521);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'tc003_services_ScheduleService_flow')
+data.setCell(30, 2, 'bestbuy.testcases.MenuBarSupportTestCases')
+data.setCell(30, 3, 5456);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'tc002_brands_apple_flow')
+data.setCell(31, 2, 'bestbuy.testcases.MenuBarBrandsTestCase')
+data.setCell(31, 3, 5451);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'tc006_featured_homesecuritysolutions_flow')
+data.setCell(32, 2, 'bestbuy.testcases.MenuBarFeaturedTestCase')
+data.setCell(32, 3, 5393);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'tc004_Deals_appleshoppingevent_flow')
+data.setCell(33, 2, 'bestbuy.testcases.MenuBarDealsTestCases')
+data.setCell(33, 3, 5352);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'tc001_Deals_TopDeals_flow')
+data.setCell(34, 2, 'bestbuy.testcases.MenuBarDealsTestCases')
+data.setCell(34, 3, 5340);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'tc005_services_shopwithanexpert_flow')
+data.setCell(35, 2, 'bestbuy.testcases.MenuBarSupportTestCases')
+data.setCell(35, 3, 5222);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'tc004_brands_microsoft_flow')
+data.setCell(36, 2, 'bestbuy.testcases.MenuBarBrandsTestCase')
+data.setCell(36, 3, 4813);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'tc005_services_checkrepairstatus_flow')
+data.setCell(37, 2, 'bestbuy.testcases.MenuBarSupportTestCases')
+data.setCell(37, 3, 4445);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'tc005_brands_yardbird_flow')
+data.setCell(38, 2, 'bestbuy.testcases.MenuBarBrandsTestCase')
+data.setCell(38, 3, 3247);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'tc003_featured_gearofcontentcreators_flow')
+data.setCell(39, 2, 'bestbuy.testcases.MenuBarFeaturedTestCase')
+data.setCell(39, 3, 2181);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.DepartmentToCartTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.CheckOutItemsTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.PaymentOptionTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.BrandItemsToCartTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.BrokenLinksTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.MenuBarDealsTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.SignupTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.MenuBarBrandsTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.MenuBarFeaturedTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.BottomLinksTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.MenuBarSupportTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">bestbuy.testcases.SearchBarTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.HomeTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">start</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">5384 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tc001_home_flow</span>
+                <span class="method-start">5471 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.SignupTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">13391 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tc001_Signup_fName_Validation</span>
+                <span class="method-start">13398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc002_Signup_lName_Validation</span>
+                <span class="method-start">28608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc004_Signup_Pwd_Validation</span>
+                <span class="method-start">40168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc005_Signup_RePwd_Validation2</span>
+                <span class="method-start">50407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc006_Signup_Phone_Validation</span>
+                <span class="method-start">60011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc007_Signup_Flow</span>
+                <span class="method-start">77380 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.BrokenLinksTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">85011 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc001_broken_flow</span>
+                <span class="method-start">85013 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.MenuBarDealsTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforClass</span>
+                <span class="method-start">95738 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tc001_Deals_TopDeals_flow</span>
+                <span class="method-start">95749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc002_Deals_DealOfTheDay_flow</span>
+                <span class="method-start">101091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc003_Deals_ToralTechMemberOffers_flow</span>
+                <span class="method-start">107340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc004_Deals_appleshoppingevent_flow</span>
+                <span class="method-start">115818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc004_Deals_bestbyoutlet_flow</span>
+                <span class="method-start">121172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc004_Deals_giftideas_flow</span>
+                <span class="method-start">126810 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.MenuBarBrandsTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforClass</span>
+                <span class="method-start">138714 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tc001_brands_bestbybrands_flow</span>
+                <span class="method-start">138718 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc002_brands_apple_flow</span>
+                <span class="method-start">144730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc003_brands_samsung_flow</span>
+                <span class="method-start">150182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc004_brands_microsoft_flow</span>
+                <span class="method-start">155899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc005_brands_intel_flow</span>
+                <span class="method-start">160713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc005_brands_sony_flow</span>
+                <span class="method-start">166236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc005_brands_yardbird_flow</span>
+                <span class="method-start">174194 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.MenuBarFeaturedTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforClass</span>
+                <span class="method-start">177443 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc001_featured_aapiheritagemonth_flow</span>
+                <span class="method-start">177447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc002_featured_graduationgifts_flow</span>
+                <span class="method-start">228202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc003_featured_gearofcontentcreators_flow</span>
+                <span class="method-start">246781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc004_featured_legotoys_flow</span>
+                <span class="method-start">248965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc005_featured_teentechcenter_flow</span>
+                <span class="method-start">292831 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc006_featured_homesecuritysolutions_flow</span>
+                <span class="method-start">299234 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.MenuBarSupportTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">304628 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tc001_servicesVisitCenter_flow</span>
+                <span class="method-start">304631 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc002_services_ScheduleService_flow</span>
+                <span class="method-start">311083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc003_services_ScheduleService_flow</span>
+                <span class="method-start">316717 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc004_services_ManageAppointment_flow</span>
+                <span class="method-start">322175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc005_services_checkrepairstatus_flow</span>
+                <span class="method-start">327884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc005_services_shopwithanexpert_flow</span>
+                <span class="method-start">332331 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc006_services_freehomeconsultation_flow</span>
+                <span class="method-start">337556 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.DepartmentToCartTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforClass</span>
+                <span class="method-start">344339 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartByDepartment</span>
+                <span class="method-start">344341 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.BrandItemsToCartTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforClass</span>
+                <span class="method-start">355174 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tc001_cart_flow</span>
+                <span class="method-start">355176 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.SearchBarTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforClass</span>
+                <span class="method-start">370170 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tc001_cart_flow</span>
+                <span class="method-start">370172 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.CheckOutItemsTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforClass</span>
+                <span class="method-start">383032 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc001_checkOut</span>
+                <span class="method-start">383034 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.BottomLinksTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">396881 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc001_bottom_flow</span>
+                <span class="method-start">396883 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bestbuy.testcases.PaymentOptionTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforClass</span>
+                <span class="method-start">446956 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc001_payment_flow</span>
+                <span class="method-start">446958 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
